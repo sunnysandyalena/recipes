@@ -1,0 +1,64 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.App {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container-search {
+  display: flex;
+  justify-content: center;
+}
+.search-btn {
+  border: none;
+  background-color: transparent;
+}
+input {
+  padding: 10px;
+  width: 300px;
+  background-color: transparent;
+  font-size: 14px;
+  color: #575756;     
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+h2, h3, p, ul, input {
+  font-family: 'Inter', sans-serif;
+  color: rgb(38, 47, 72);
+  font-weight: bolder;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: rgb(38, 47, 72);
+  font-weight: bolder;
+  font-size: 40px;
+}
+li {
+  list-style: none;
+}
+.container-extra {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  color: rgb(20, 63, 183);
+  font-weight: bolder;
+}
