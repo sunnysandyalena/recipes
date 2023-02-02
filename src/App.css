@@ -53,9 +53,15 @@ li {
 }
 .container-extra {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
+}
+.extra-box {
+  border: none;
+  padding: 4px;
+  border-radius: 50px;
+  background-color: #b9e0ef;
+  margin-left: 5px;
 }
 a {
   text-decoration: none;

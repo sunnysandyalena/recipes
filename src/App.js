@@ -47,7 +47,7 @@ function App() {
           </form>
         </div>
         <div>
-          <button className='search-btn'><img src = {searchImg} alt = 'Search' width = '40px'/></button>
+          <button onClick={finalSearch} className='search-btn'><img src = {searchImg} alt = 'Search' width = '40px'/></button>
         </div>
       </div>
         {myRecipes.map(element => (

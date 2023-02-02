@@ -17,14 +17,17 @@ function MyRecipes({label, image, calories, ingredients, url, servings, meal}) {
                 </ul>
             </div>
             <div className='container-extra'>
-                <div>
-                    <h3>{calories.toFixed()} calories</h3>
+                <div className='extra-box'>
+                    <h4>{calories.toFixed()} calories</h4>
                 </div>
-                <div>
-                    <h3>Serves {servings}. Great for {meal}</h3>
+                <div className='extra-box'>
+                    <h4>Serves {servings}.</h4>
                 </div>
-                <div>
-                    <h3>View full recipe <a href={url} rel="noreferrer" target='_blank'>here</a></h3>
+                <div className='extra-box'>
+                    <h4>Great for {meal}</h4>
+                </div>
+                <div className='extra-box'>
+                    <h4>View full recipe <a href={url} rel="noreferrer" target='_blank'>here</a></h4>
                 </div>
             </div>
             <hr></hr>
